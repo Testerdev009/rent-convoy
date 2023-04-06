@@ -12,35 +12,35 @@ const defaultLocations = [
     id: 'default-manhattan',
     predictionPlace: {
       address: 'Manhattan, New York, NY',
-      bounds: new LatLngBounds(new LatLng(40.753250, -74.003807), new LatLng(39.92248, -73.78287)),
+      bounds: new LatLngBounds(new LatLng(40.882074965, -73.907), new LatLng(40.679573, -74.047313153)),
     },
   },
   {
     id: 'default-brooklyn',
     predictionPlace: {
       address: 'Brooklyn, New York, NY',
-      bounds: new LatLngBounds(new LatLng(40.678177, -73.944160), new LatLng(39.92248, -73.78287)),
+      bounds: new LatLngBounds(new LatLng(40.640165949, -73.933611006), new LatLng(40.611036046, -73.958400982)),
     },
   },
   {
     id: 'default-southampton',
     predictionPlace: {
       address: 'Southampton, NY',
-      bounds: new LatLngBounds(new LatLng(50.904968, -1.403230), new LatLng(49.904968, -0.403230)),
+      bounds: new LatLngBounds(new LatLng(40.993494354, -72.330519922), new LatLng(40.818187107, -72.500029)),
     },
   },
   {
     id: 'default-amagansett',
     predictionPlace: {
       address: 'Amagansett, NY',
-      bounds: new LatLngBounds(new LatLng(40.974049, -72.134361), new LatLng(39.974049, -71.134361)),
+      bounds: new LatLngBounds(new LatLng(41.043722605, -72.017324), new LatLng(40.949337839, -72.162746)),
     },
   },
   {
     id: 'default-whiteplains',
     predictionPlace: {
       address: 'White Plains, NY',
-      bounds: new LatLngBounds(new LatLng(41.037529911026596, -73.76275444003011), new LatLng(40.037529911026596, -72.76275444003011)),
+      bounds: new LatLngBounds(new LatLng(41.07383, -73.719524), new LatLng(40.98259, -73.843608)),
     },
   },
 ];

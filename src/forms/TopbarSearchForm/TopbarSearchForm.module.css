@@ -69,6 +69,7 @@
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 10px;
+  color: var(--matterColor);
 
   /* Search text gets ellipsis if it's too wide */
   text-overflow: ellipsis;
@@ -89,6 +90,7 @@
   &::placeholder {
     text-overflow: ellipsis;
     overflow-x: hidden;
+    color: var(--matterColorAnti);
     font-weight: var(--fontWeightMedium);
     transition: var(--transitionStyleButton);
   }
