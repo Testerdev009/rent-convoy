@@ -1,0 +1,67 @@
+@import '../../../../styles/customMediaQueries.css';
+
+.root {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+
+  &:nth-of-type(odd) {
+    background-color: #fafafa;
+  }
+}
+
+.sectionContent {
+  padding: 32px 0;
+  position: relative;
+  min-height: auto;
+  display: unset;
+
+  @media (--viewportMedium) {
+    padding: 64px 0;
+    min-height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.sectionContent h1 {
+  font-size: 40px;
+  line-height: 1.1em;
+  letter-spacing: 3px; 
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;  
+@media (--viewportMedium) {
+  font-size: 80px;
+}
+}
+
+
+.sectionContent p {
+  font-size: 24px;
+  line-height: 1.5em;
+  letter-spacing: -0.19px; 
+  font-weight: 400;
+  margin:30px 0 30px;
+  @media (--viewportMedium) {
+    margin:70px 0 70px;
+  }
+}
+
+.backgroundImageWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sectionContent h2{
+  font-size: 40px;
+  line-height: 1.1em; 
+  letter-spacing:-0.09px;
+}
