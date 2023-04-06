@@ -797,7 +797,7 @@ textarea {
 /* Button colors: secondary */
 .buttonColorsSecondary {
   background-color: var(--matterColorLight);
-  color: var(--matterColor);
+  color: var(--marketplaceColor);
 }
 .buttonColorsSecondary:disabled {
   background-color: var(--matterColorNegative);

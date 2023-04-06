@@ -81,7 +81,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColorDark);
+    color: var(--matterColorAnti);
   }
 
   &:hover .menuItemBorder {

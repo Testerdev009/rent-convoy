@@ -27,7 +27,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColor);
+    color: var(--marketplaceColor);
     transition: width var(--transitionStyleButton);
   }
 }
@@ -53,7 +53,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColor);
+    color: var(--marketplaceColor);
     transition: width var(--transitionStyleButton);
   }
 }

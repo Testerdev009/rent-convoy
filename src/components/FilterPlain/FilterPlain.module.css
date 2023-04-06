@@ -50,7 +50,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColor);
+    color: var(--matterColorDark);
   }
 }
 

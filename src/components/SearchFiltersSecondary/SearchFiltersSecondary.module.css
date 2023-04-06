@@ -59,7 +59,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColor);
+    color: var(--matterColorDark);
   }
 }
 
@@ -75,7 +75,7 @@
 
   &:focus,
   &:hover {
-    color: var(--matterColor);
+    color: var(--matterColorDark);
   }
 }
 
