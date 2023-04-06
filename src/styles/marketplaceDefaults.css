@@ -1087,7 +1087,8 @@ div#start-engine {
   padding: 80px 0;
   position: relative;
 }
-div#start-engine:before {
+div#start-engine:before,
+div#start-engine:after  {
   content: "";
   width: 200px;
   height: 9px;
@@ -1096,4 +1097,8 @@ div#start-engine:before {
   left: 20%;
   top: 0;
   z-index: 1;
+}
+div#start-engine:after {
+  top: unset;
+  bottom: 0;
 }
