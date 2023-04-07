@@ -144,7 +144,7 @@
   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
   font-weight: 600;
   margin-top: 24px;
-  
+  color:var(--marketplaceColor);
 
   &:hover {
     text-decoration: none;
@@ -196,10 +196,12 @@
 .darkTheme .ctaButton {
   border: 1px solid var(--marketplaceColorDark);
   text-decoration: none;
-
-  &:hover {
-    color: white;
+  background-color: #fff;
+  color: #000;
+  &:hover{
+    color: #000;
   }
+ 
 }
 
 .darkTheme hr {

@@ -20,7 +20,7 @@
 
   @media (--viewportMedium) {
     padding: 64px 0;
-    min-height: 688px;
+    /* min-height: 688px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,4 +64,5 @@
   font-size: 40px;
   line-height: 1.1em; 
   letter-spacing:-0.09px;
+  font-weight: 500;
 }

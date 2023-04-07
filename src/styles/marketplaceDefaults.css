@@ -1084,21 +1084,101 @@ div#start {
   padding: 40px 40px 0 0px;
 }
 div#start-engine {
-  padding: 80px 0;
+  padding: 80px 0 20px;
   position: relative;
 }
 div#start-engine:before,
-div#start-engine:after  {
+div#start-engine:after,
+div#getting-ride:after,
+div#accepted-makes:before  {
   content: "";
   width: 200px;
   height: 9px;
   background: #fff;
   position: absolute;
-  left: 20%;
+  left: 18.4%;
   top: 0;
   z-index: 1;
 }
-div#start-engine:after {
+div#start-engine:after,
+div#getting-ride:after {
   top: unset;
   bottom: 0;
+}
+div#accepted-makes:before  {
+  background: #000;
+}
+div#getting-ride div {
+  padding-bottom: 8px !important;
+  text-align: left;
+}
+div#getting-ride {
+  padding-bottom: 90px;
+  position: relative;
+}
+div#getting-ride img {
+  width: 32px;
+  height: 34px;
+  object-fit: contain;
+}
+div#getting-ride p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8em;
+  margin: 21px 0 0;
+}
+div#getting-ride h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+div#getting-ride header h2, div#getting-ride header,
+#featured-locations header h2,#featured-locations header,
+div#accepted-makes header h2, div#accepted-makes header {
+  max-width: 1270px !important;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+div#featured-locations h3:before {
+  content: "Vehicles";
+  position: absolute;
+  color: #fff;
+  font-weight: 600;
+}
+div#featured-locations h3 {
+  color: #B1B1B1;
+  font-size: 21px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px;
+}
+div#accepted-makes {
+  padding-bottom: 30px;
+  position: relative;
+}
+div#accepted-makes img {
+  max-width: 104px;
+  height: 104px;
+  object-fit: contain;
+}
+div#accepted-makes div{
+  padding-bottom: 20px !important;  
+}
+div#accepted-makes header h2{
+  font-weight: 700;
+}
+div#range-rover {
+  max-width: 164px;
+  padding-right: 0;
+  margin-top: 13px;
+}
+div#accepted-makes img[alt="Range Rover"] {
+  max-width: none;
+  height: auto;
+}
+div#accepted-makes-slider > div {
+  width: 50%;
+  @media (--viewportMedium) {
+    width: 8%;
+  }
 }
