@@ -390,7 +390,7 @@
 }
 
 .currentPage {
-  color: var(--matterColorDark);
+  color: var(--matterColorAnti);
   position: relative;
 
   & .menuItemBorder {

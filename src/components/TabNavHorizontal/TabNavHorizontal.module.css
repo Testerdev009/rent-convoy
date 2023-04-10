@@ -35,7 +35,7 @@
   line-height: 24px;
   letter-spacing: 0;
 
-  color: var(--matterColor);
+  color: var(--matterColorAnti);
   padding-bottom: 10px;
 
   border-bottom-width: 2px;
@@ -77,16 +77,16 @@
 
 /* Dark skin */
 .tabContentDarkSkin {
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
 
   &:hover {
-    color: var(--matterColorLight);
+    color: var(--matterColorAlmostDark);
   }
 }
 
 .selectedTabContentDarkSkin {
   border-bottom-color: var(--matterColorLight);
-  color: var(--matterColorLight);
+  color: var(--matterColorDark);
 }
 
 .disabledDarkSkin {

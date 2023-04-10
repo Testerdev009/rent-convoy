@@ -22,11 +22,14 @@ const SectionContainer = props => {
           options={options}
         />
       ) : null}
-
+      <video autoplay="true" loop="true" muted="true" class="ownvideo">
+          <source src="/static/icons/hero-convoy.mp4" type="video/mp4" />
+        </video>
       <div className={css.sectionContent}>{children}</div>
     </Tag>
   );
 };
+
 
 const propTypeOption = shape({
   fieldComponents: shape({ component: node, pickValidProps: func }),

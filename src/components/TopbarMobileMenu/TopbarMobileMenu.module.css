@@ -24,7 +24,7 @@
   left: 0;
   width: 100vw;
   padding: 24px;
-  background-color: var(--matterColorLight);
+  background-color: var(--marketplaceColor);
   box-shadow: var(--boxShadowTop);
 }
 

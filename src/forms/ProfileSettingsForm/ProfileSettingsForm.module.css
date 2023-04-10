@@ -20,7 +20,7 @@
 
 .sectionTitle {
   /* Font */
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
 
   margin-top: 0;
   margin-bottom: 12px;
@@ -240,7 +240,7 @@
 
 .tip {
   composes: marketplaceDefaultFontStyles from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   margin-top: 0;
   margin-bottom: 12px;
   padding-top: 5px;
@@ -256,7 +256,7 @@
 
 .fileInfo {
   composes: h5 from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 5px;
@@ -289,7 +289,7 @@
 }
 
 .bioInfo {
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   margin-top: 11px;
 
   @media (--viewportMedium) {

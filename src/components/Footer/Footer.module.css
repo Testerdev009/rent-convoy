@@ -299,7 +299,7 @@
   justify-content: space-between;
   align-items: flex-end;
 
-  background-color: var(--matterColorLight);
+  background-color: var(--marketplaceColor);
 
   @media (--viewportMedium) {
     display: none;
@@ -319,7 +319,7 @@
   margin-bottom: 0;
 
   &:hover {
-    color: var(--marketplaceColor);
+    color: var(--matterColorAnti);
     text-decoration: none;
   }
 }

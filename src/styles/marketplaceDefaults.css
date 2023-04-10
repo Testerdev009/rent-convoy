@@ -562,8 +562,8 @@ textarea {
     background-position: center center;
   }
   @media (--viewportLarge) {
-    border-radius: 40px;
-    border: solid 36px var(--matterColorBright);
+    border-radius: 0px;
+    border: solid 0px var(--matterColorBright);
   }
 }
 
@@ -932,7 +932,7 @@ textarea {
 
   -webkit-font-smoothing: subpixel-antialiased;
 
-  color: var(--matterColorAnti);
+  color: #6a6a6a;
   margin: 0;
 
   @media (--viewportMedium) {
@@ -949,8 +949,9 @@ textarea {
 
   -webkit-font-smoothing: subpixel-antialiased;
 
-  color: var(--matterColor);
+  color:#6a6a6a;
   margin: 0;
+  text-decoration: underline;
 
   @media (--viewportMedium) {
     line-height: 16px;
@@ -986,7 +987,7 @@ textarea {
 
   /* Colors */
   background-color: transparent;
-  color: var(--matterColor);
+  color: #b3b3b3;
 
   cursor: pointer;
 }
@@ -1072,6 +1073,28 @@ textarea {
 }
 
 /**** custom styles ****/
+div#hero > div:nth-child(1) {
+  background: rgba(0, 0, 0,.6) !important;
+  z-index: 1;
+}
+div#hero {
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  @media (--viewportLarge) {
+    min-height: 800px;
+  }
+}
+video.ownvideo{
+  display: none;
+}
+div#hero video.ownvideo {
+  position: absolute;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  min-height: 450px;
+}
 div#hero-block a {
   color: #000;
 }
@@ -1087,6 +1110,7 @@ div#start-engine {
   padding: 80px 0 20px;
   position: relative;
 }
+@media (--viewportLarge) {
 div#start-engine:before,
 div#start-engine:after,
 div#getting-ride:after,
@@ -1099,6 +1123,8 @@ div#accepted-makes:before  {
   left: 18.4%;
   top: 0;
   z-index: 1;
+  }
+
 }
 div#start-engine:after,
 div#getting-ride:after {
@@ -1139,6 +1165,7 @@ div#accepted-makes header h2, div#accepted-makes header {
   display: block;
   width: 100%;
 }
+
 div#featured-locations h3:before {
   content: "Vehicles";
   position: absolute;
@@ -1176,9 +1203,24 @@ div#accepted-makes img[alt="Range Rover"] {
   max-width: none;
   height: auto;
 }
+
 div#accepted-makes-slider > div {
   width: 50%;
   @media (--viewportMedium) {
     width: 8%;
   }
 }
+a.ft {
+  color: #fff;
+  font-size: 14px;
+}
+
+@media (max-width:767px) {
+  div#featured-locations-container {
+    padding-bottom: 60px;
+  }
+  div#accepted-makes {
+    margin-top: 40px;
+}
+}
+

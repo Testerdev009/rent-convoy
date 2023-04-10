@@ -71,7 +71,7 @@
 
 .text {
   composes: marketplaceListingAttributeFontStyles from global;
-  color: var(--matterColor);
+  color: var(--marketplaceColor);
   margin-top: -1px;
   margin-bottom: 1px;
   cursor: pointer;

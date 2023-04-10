@@ -17,6 +17,7 @@
   position: relative;
   min-height: auto;
   display: unset;
+  z-index: 2;
 
   @media (--viewportMedium) {
     padding: 64px 0;
@@ -26,6 +27,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+   
   }
 }
 
