@@ -85,16 +85,18 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
+        { key: 'sedan', label: 'Sedan' },
+        { key: 'suv', label: 'SUV' },
+        { key: 'sports', label: 'Sports' },
+        { key: 'hatchback', label: 'Hatchback' },
+        { key: 'coupe', label: 'Coupe' },
         { key: 'other', label: 'Other' },
       ],
     },
   },
   {
     id: 'amenities',
-    label: 'Amenities',
+    label: 'Category',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_amenities'],
@@ -109,36 +111,28 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'location',
+          label: 'Location',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'price',
+          label: 'Price',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
+          key: 'category',
+          label: 'Category',
         },
         {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
+          key: 'make',
+          label: 'Make',
         },
         {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
+          key: 'model',
+          label: 'Model',
         },
         {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
-        },
-        {
-          key: 'barbeque',
-          label: 'Barbeque',
-        },
-        {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
+          key: 'availability',
+          label: 'Availability',
         },
       ],
     },
