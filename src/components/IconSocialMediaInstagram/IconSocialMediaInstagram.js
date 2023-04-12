@@ -14,6 +14,7 @@ const IconSocialMediaInstagram = props => {
         fillRule="evenodd"
       />
     </svg>
+  
   );
 };
 

@@ -58,10 +58,13 @@ section {
 /**
   * Remove the margin in all browsers (opinionated).
   */
-
+  html {
+    background: #fff; 
+    min-height: 100%;
+}
 body {
   margin: 0;
-  background: pink;
+  background: #fff;
 }
 
 /**
@@ -298,9 +301,9 @@ svg {
   * Hide the overflow in IE.
   */
 
-svg:not(:root) {
-  overflow: hidden;
-}
+ svg:not(:root) {
+  overflow: visible;
+} 
 
 /* Tabular data (https://html.spec.whatwg.org/multipage/tables.html#tables)
     ========================================================================== */

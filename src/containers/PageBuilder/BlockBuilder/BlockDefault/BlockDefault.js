@@ -50,6 +50,9 @@ const BlockDefault = props => {
           <Field data={callToAction} className={ctaButtonClass} options={options} />
         </div>
       ) : null}
+       <video autoplay="true" loop="true" muted="true" class="shortvideo">
+          <source src="/static/icons/launch_video-final.mp4" type="video/mp4" />
+        </video>
     </BlockContainer>
   );
 };

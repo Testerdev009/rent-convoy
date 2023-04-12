@@ -1214,10 +1214,41 @@ a.ft {
   color: #fff;
   font-size: 14px;
 }
-
+video.shortvideo{
+  display:none;
+}
+#list-your-product video.shortvideo {
+  display: block !important;
+  width: 470px !important;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+div#list-your-product {
+  position: relative;
+  height: 870px;
+}
+div#list-your-product .BlockDefault_media__JDhee {
+  display: none;
+}
+/* .IconSocialMediaFacebook_root__LSgtl {
+  width: auto;
+  height: 15px;
+  overflow: visible;
+} */
+form#checboxid li {
+  width: 100%;
+  float: left;
+  @media (--viewportMedium) {
+    width: 50%;
+  }
+}
 @media (max-width:767px) {
   div#featured-locations-container {
     padding-bottom: 60px;
+  }
+  #list-your-product video.shortvideo {
+    width: 100% !important;
   }
   div#accepted-makes {
     margin-top: 40px;

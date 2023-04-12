@@ -24,17 +24,19 @@ export const YoutubeEmbed = props => {
 
   return (
     <AspectRatioWrapper className={classes} width={width} height={height}>
+       
       <LazyIFrame
         src={`https://www.youtube-nocookie.com/embed/${youtubeVideoId}`}
         className={css.iframe}
         style={{ background: BLACK_BG }}
         frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;  loop;"
         allowFullScreen
         title="Embedded youtube"
       />
     </AspectRatioWrapper>
   );
+
 };
 
 YoutubeEmbed.displayName = 'YoutubeEmbed';

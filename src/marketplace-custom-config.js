@@ -85,16 +85,17 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'sedan', label: 'Sedan' },
         { key: 'suv', label: 'SUV' },
-        { key: 'sports', label: 'Sports' },
-        { key: 'hatchback', label: 'Hatchback' },
+        { key: 'sedan', label: 'Sedan' },
         { key: 'coupe', label: 'Coupe' },
+        { key: 'sports-car', label: 'Sports Car' },
+        { key: 'convertible', label: 'Convertible' },
+        { key: 'two-seater', label: 'Two Seater' },
         { key: 'other', label: 'Other' },
       ],
     },
   },
-  {
+  { 
     id: 'amenities',
     label: 'Category',
     type: 'SelectMultipleFilter',
@@ -111,28 +112,52 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'location',
-          label: 'Location',
+          key: 'all-wheel-drive',
+          label: 'All-Wheel Drive',
         },
         {
-          key: 'price',
-          label: 'Price',
+          key: 'navigation-system',
+          label: 'Navigation System',
         },
         {
-          key: 'category',
-          label: 'Category',
+          key: 'remote-start',
+          label: 'Remote Start',
         },
         {
-          key: 'make',
-          label: 'Make',
+          key: 'heated-seats',
+          label: 'Heated Seats',
         },
         {
-          key: 'model',
-          label: 'Model',
+          key: 'cooled-seats',
+          label: 'Cooled Seats',
         },
         {
-          key: 'availability',
-          label: 'Availability',
+          key: 'bluetooth-audio',
+          label: 'Buetooth Audio',
+        },
+        {
+          key: 'apply-carplay',
+          label: 'Apply Carplay',
+        },
+        {
+          key: 'blind-spot-monitoring',
+          label: 'Blind Spot Monitoring',
+        },
+        {
+          key: 'parking-sensors',
+          label: 'Parking Sensors',
+        },
+        {
+          key: 'adaptive-cruise-control',
+          label: 'Adaptive Cruise Control',
+        },
+        {
+          key: 'backup-camera',
+          label: 'Backup Camera',
+        },
+        {
+          key: 'pet-friendly',
+          label: 'Pet Friendly',
         },
       ],
     },

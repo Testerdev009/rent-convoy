@@ -52,6 +52,7 @@ export const FieldImage = React.forwardRef((props, ref) => {
         sizes={sizes}
         {...otherProps}
       />
+      
     </AspectRatioWrapper>
   );
 });
