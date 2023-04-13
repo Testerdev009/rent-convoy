@@ -16,7 +16,7 @@
   align-items: center;
 
   /* Colors */
-  background-color: var(--matterColor);
+  background-color: var(--marketplaceColor);
   color: var(--matterColorNegative);
 
   /* Cover Topbar on desktop */
@@ -57,7 +57,7 @@
 
   &:hover {
     background-color: var(--matterColorNegative);
-    color: var(--matterColor);
+    color: var(--marketplaceColor);
     transition: var(--transitionStyleButton);
   }
 
