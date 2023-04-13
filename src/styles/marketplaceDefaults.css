@@ -1228,7 +1228,7 @@ div#list-your-product {
   position: relative;
   height: 870px;
 }
-div#list-your-product .BlockDefault_media__JDhee {
+div#list-your-product div:nth-child(1) {
   display: none;
 }
 /* .IconSocialMediaFacebook_root__LSgtl {
