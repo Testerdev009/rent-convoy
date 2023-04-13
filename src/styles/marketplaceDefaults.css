@@ -1093,7 +1093,7 @@ div#hero video.ownvideo {
   width: 100%;
   display: block;
   object-fit: cover;
-  min-height: 450px;
+  min-height: 460px;
 }
 div#hero-block a {
   color: #000;
@@ -1226,7 +1226,16 @@ video.shortvideo{
 }
 div#list-your-product {
   position: relative;
-  height: 870px;
+  height: 550px;
+  position: relative;
+  justify-content: start;
+  align-items: self-start;
+  display: flex;
+  flex-direction: column;
+  @media (--viewportMedium) {
+    display: unset;
+    height: 870px;
+  }
 }
 div#list-your-product div:nth-child(1) {
   display: none;
@@ -1252,6 +1261,15 @@ form#checboxid li {
   }
   div#accepted-makes {
     margin-top: 40px;
+}
+div#start-engine {
+  padding: 10px 0 20px;
+}
+h2{
+  font-size: 32px !important;
+}
+div#start {
+  padding: 40px 00px 0 0px;
 }
 }
 
