@@ -124,17 +124,17 @@
   border-bottom: 2px solid var(--successColor);
   margin-bottom: 24px;
   padding: 4px 0 10px 0;
-  color: var(--matterColor);
+  color: var(--marketplaceColor);
   text-align: left;
 
   &:hover {
     cursor: text;
     text-decoration: none;
-    border-color: var(--matterColor);
+    border-color: var(--marketplaceColor);
   }
 
   &:focus {
     outline: none;
-    border-color: var(--matterColor);
+    border-color: var(--marketplaceColor);
   }
 }

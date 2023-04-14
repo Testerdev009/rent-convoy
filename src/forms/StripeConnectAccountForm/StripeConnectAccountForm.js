@@ -391,4 +391,4 @@ StripeConnectAccountFormComponent.propTypes = {
 
 const StripeConnectAccountForm = compose(injectIntl)(StripeConnectAccountFormComponent);
 
-export default StripeConnectAccountForm;
+export default StripeConnectAccountForm; 

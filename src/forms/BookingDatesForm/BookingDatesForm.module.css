@@ -26,7 +26,7 @@
 
 .priceBreakdownTitle {
   /* Font */
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
 
   margin-top: 5px;
   margin-bottom: 14px;
@@ -63,7 +63,7 @@
 
 .smallPrint {
   composes: marketplaceTinyFontStyles from global;
-  color: var(--matterColorAnti);
+  color: var(--marketplaceColor);
   text-align: center;
   margin: auto 24px 20px 24px;
   flex-shrink: 0;
